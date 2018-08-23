@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <preferences>
+    <preference>
+      <name>ClaimedEventDescription</name>
+      <valueStr>Will Bring Donuts</valueStr>
+    </preference>
+    <preference>
+      <name>MaxEventRepeat</name>
+      <valueInt>10</valueInt>
+    </preference>
+  </preferences>
+</root>

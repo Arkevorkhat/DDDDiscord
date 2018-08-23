@@ -1,0 +1,32 @@
+﻿discord.MessageCreated += async e =>
+                {
+                    if (CommandCheck.checkCommand(e.Message.Content, "test")==true)
+                    {
+                        await e.Message.RespondAsync("Test Message Please Ignore");
+                    }
+                };
+                discord.MessageCreated += async e =>
+                {
+                    if (CommandCheck.checkCommand(e.Message.Content, "set calendar")==true)
+
+                    {
+                        var embed = new DiscordEmbedBuilder
+                        {
+                            Color = new DiscordColor("#1111aa"),
+                            Title = "List of Calendars",
+                            Timestamp = DateTime.Now,
+                        };
+                        for (var i = 0; i < calendarLoad.list.Items.Count; i++)
+                        {
+                            embed.Description += $"{{i}} : " + calendarLoad.list.Items[i].Summary + '\n';
+                        }
+                        await e.Message.RespondAsync("", false, embed.Build());
+                        var repl = await interactivity.WaitForMessageAsync(xm => xm.Author == e.Author, TimeSpan.FromMinutes(1));
+                        try
+                        {
+                            int choice = Convert.ToInt32(repl.Message.Content);
+                            calendarListEntry = calendarLoad.list.Items[choice];
+                        }
+                        catch (Exception e1) { Console.Write(e1.Message); }
+                    }
+                };

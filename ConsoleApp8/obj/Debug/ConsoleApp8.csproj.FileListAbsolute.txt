@@ -1,0 +1,7 @@
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe.config
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.pdb
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csprojAssemblyReference.cache
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csproj.CoreCompileInputs.cache
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.exe
+c:\users\arkev\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.pdb
